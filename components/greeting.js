@@ -14,8 +14,8 @@ render(){
             placeholder="Write your name..." onChangeText={(name) => this.setState({name})}/>
         <Text style={{marginTop:10}}>Welcome {this.state.name}</Text>
         </View>
-    )
-}
+        )
+    }
 }
 const styles = StyleSheet.create({
   container: {
