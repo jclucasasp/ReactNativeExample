@@ -12,7 +12,7 @@ render(){
         <View style={StyleSheet.container}>
             <TextInput style={{height:30, borderColor: 'gray', borderWidth:1}} 
             placeholder="Write your name..." onChangeText={(name) => this.setState({name})}/>
-        <Text style={{marginTop:10}}>Welcome {this.state.name}</Text>
+        <Text style={{marginTop:10}}>Welcome to the CI/CD course, {this.state.name}</Text>
         </View>
     )
 }
